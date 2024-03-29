@@ -48,12 +48,11 @@ This project aims to implement an image colorization algorithm using deep learni
 
     Open the `Image Colorization.ipynb` notebook and follow the instructions to colorize images.
 
-## Colorization
+## Results
 <p align="center">
   <img src="imgs/lion.jpeg" width="350" title="Input image">
   <img src="imgs_output/lion_colorized.jpeg" width="350" title="Output image">
     </p>
-    
 
 ## Contributing
 
