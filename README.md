@@ -49,34 +49,34 @@ This project aims to implement an image colorization algorithm using deep learni
     Open the `Image Colorization.ipynb` notebook and follow the instructions to colorize images.
 
 ## Detailed Description of Layers
-- Input Layer:
+- `Input Layer`:
     - This layer serves as the entry point for the input data, typically images or feature maps.
-- Convolutional Layer 1 (Conv1):
+- `Convolutional Layer 1 (Conv1)`:
     - Convolution operation extracts features from the input using a set of learnable filters. ReLU activation function introduces non-linearity to the model.
     - Batch normalization normalizes the activations of the previous layer, which helps in training stability and faster convergence.
-- Convolutional Layer 2 (Conv2):
+- `Convolutional Layer 2 (Conv2)`:
     - Similar to Conv1, this layer extracts higher-level features from the input.
     - ReLU activation and batch normalization are applied for non-linearity and normalization.
-- Convolutional Layer 3 (Conv3):
+- `Convolutional Layer 3 (Conv3)`:
     - Another convolutional layer to further extract complex features.
     - ReLU activation and batch normalization are applied.
-- Convolutional Layer 4 (Conv4):
+- `Convolutional Layer 4 (Conv4)`:
     - Continues the feature extraction process.
     - ReLU activation and batch normalization.
-- Convolutional Layer 5 (Conv5):
+- `Convolutional Layer 5 (Conv5)`:
     - Further extracts features with deeper representation. 
     - ReLU activation and batch normalization.
-- Convolutional Layer 6 (Conv6):
+- `Convolutional Layer 6 (Conv6)`:
     - Continues the feature extraction process. ReLU activation and batch normalization.
-- Convolutional Layer 7 (Conv7):
+- `Convolutional Layer 7 (Conv7)`:
     - Extracts more abstract features.
     - ReLU activation and batch normalization.
-- Deconvolutional Layer (Conv8):
+- `Deconvolutional Layer (Conv8)`:
     - Deconvolution (also known as transposed convolution) is used for upsampling or generating feature maps with larger spatial resolutions.
     - ReLU activation is applied.
-- Softmax Layer:
+- `Softmax Layer`:
     - Softmax activation function is typically used for multi-class classification to compute probabilities for each class.
-- Convolutional Layer for Decoding (class8_ab):
+- `Convolutional Layer for Decoding (class8_ab)`:
     - This layer is used for decoding or generating output.
 
 ## Results
