@@ -7,8 +7,8 @@ This project aims to implement an image colorization algorithm using deep learni
 ## Features
 
 - Convert grayscale images to colorized images
-- Support for various image formats
-- User-friendly interface using `Streamlit`
+- Support for various image formats (e.g., JPEG, PNG)
+- User-friendly interface using `Streamlit`, a simple web app framework for Python
 
 ## Installation
 
