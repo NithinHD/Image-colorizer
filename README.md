@@ -54,6 +54,36 @@ This project aims to implement an image colorization algorithm using deep learni
   <img src="imgs_output/lion_colorized.jpeg" width="350" title="Output image">
     </p>
 
+## Detailed Description of Layers
+- Input Layer:
+    - This layer serves as the entry point for the input data, typically images or feature maps.
+- Convolutional Layer 1 (Conv1):
+    - Convolution operation extracts features from the input using a set of learnable filters. ReLU activation function introduces non-linearity to the model.
+    - Batch normalization normalizes the activations of the previous layer, which helps in training stability and faster convergence.
+- Convolutional Layer 2 (Conv2):
+    - Similar to Conv1, this layer extracts higher-level features from the input.
+    - ReLU activation and batch normalization are applied for non-linearity and normalization.
+- Convolutional Layer 3 (Conv3):
+    - Another convolutional layer to further extract complex features.
+    - ReLU activation and batch normalization are applied.
+- Convolutional Layer 4 (Conv4):
+    - Continues the feature extraction process.
+    - ReLU activation and batch normalization.
+- Convolutional Layer 5 (Conv5):
+    - Further extracts features with deeper representation. 
+    - ReLU activation and batch normalization.
+- Convolutional Layer 6 (Conv6):Continues the feature extraction process. ReLU activation and batch normalization.
+- Convolutional Layer 7 (Conv7):
+    - Extracts more abstract features.
+    - ReLU activation and batch normalization.
+- Deconvolutional Layer (Conv8):
+    - Deconvolution (also known as transposed convolution) is used for upsampling or generating feature maps with larger spatial resolutions.
+    - ReLU activation is applied.
+- Softmax Layer:
+    - Softmax activation function is typically used for multi-class classification to compute probabilities for each class.
+- Convolutional Layer for Decoding (class8_ab):
+    - This layer is likely used for decoding or generating output, possibly related to image colorization or another task.
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
