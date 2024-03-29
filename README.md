@@ -50,8 +50,8 @@ This project aims to implement an image colorization algorithm using deep learni
 
 ## Colorization
 <p align="center">
-  <img src="imgs/ansel_adams2.jpg" width="350" title="Input image">
-  <img src="imgs_output/ansel_adams2_colorized.jpg" width="350" alt="Output image">
+  <img src="imgs/lion.jpeg" width="350" title="Input image">
+  <img src="imgs_output/lion_colorized.jpeg" width="350" alt="Output image">
     </p>
 
 ## Contributing
