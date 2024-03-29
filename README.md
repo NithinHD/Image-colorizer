@@ -66,7 +66,8 @@ This project aims to implement an image colorization algorithm using deep learni
 - Convolutional Layer 5 (Conv5):
     - Further extracts features with deeper representation. 
     - ReLU activation and batch normalization.
-- Convolutional Layer 6 (Conv6):Continues the feature extraction process. ReLU activation and batch normalization.
+- Convolutional Layer 6 (Conv6):
+    - Continues the feature extraction process. ReLU activation and batch normalization.
 - Convolutional Layer 7 (Conv7):
     - Extracts more abstract features.
     - ReLU activation and batch normalization.
@@ -76,7 +77,7 @@ This project aims to implement an image colorization algorithm using deep learni
 - Softmax Layer:
     - Softmax activation function is typically used for multi-class classification to compute probabilities for each class.
 - Convolutional Layer for Decoding (class8_ab):
-    - This layer is likely used for decoding or generating output, possibly related to image colorization or another task.
+    - This layer is used for decoding or generating output.
 
 ## Results
 <p align="center">
