@@ -49,8 +49,10 @@ This project aims to implement an image colorization algorithm using deep learni
     Open the `Image Colorization.ipynb` notebook and follow the instructions to colorize images.
 
 ## Colorization
-    ![Input Image 1](imgs/ansel_adams2.jpg)
-    ![Output Image 1](imgs_output/ansel_adams2_colorized.jpg)
+<p align="center">
+  <img src="imgs/ansel_adams2.jpg" width="350" title="Input image">
+  <img src="imgs_output/ansel_adams2_colorized.jpg" width="350" alt="Output image">
+    </p>
 
 ## Contributing
 
