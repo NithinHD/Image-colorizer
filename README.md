@@ -48,7 +48,7 @@ This project aims to implement an image colorization algorithm using deep learni
 
     Open the `Image Colorization.ipynb` notebook and follow the instructions to colorize images.
 
-## Detailed Description of Layers
+## Description of the Model
 - `Input Layer`:
     - This layer serves as the entry point for the input data, typically images or feature maps.
 - `Convolutional Layer 1 (Conv1)`:
