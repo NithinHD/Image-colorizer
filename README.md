@@ -48,12 +48,6 @@ This project aims to implement an image colorization algorithm using deep learni
 
     Open the `Image Colorization.ipynb` notebook and follow the instructions to colorize images.
 
-## Results
-<p align="center">
-  <img src="imgs/lion.jpeg" width="350" title="Input image">
-  <img src="imgs_output/lion_colorized.jpeg" width="350" title="Output image">
-    </p>
-
 ## Detailed Description of Layers
 - Input Layer:
     - This layer serves as the entry point for the input data, typically images or feature maps.
@@ -83,6 +77,12 @@ This project aims to implement an image colorization algorithm using deep learni
     - Softmax activation function is typically used for multi-class classification to compute probabilities for each class.
 - Convolutional Layer for Decoding (class8_ab):
     - This layer is likely used for decoding or generating output, possibly related to image colorization or another task.
+
+## Results
+<p align="center">
+  <img src="imgs/lion.jpeg" width="350" title="Input image">
+  <img src="imgs_output/lion_colorized.jpeg" width="350" title="Output image">
+    </p>
 
 ## Contributing
 
