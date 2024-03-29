@@ -8,7 +8,7 @@ This project aims to implement an image colorization algorithm using deep learni
 
 - Convert grayscale images to colorized images
 - Support for various image formats
-- User-friendly interface
+- User-friendly interface using `Streamlit`
 
 ## Installation
 
